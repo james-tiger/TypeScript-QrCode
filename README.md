@@ -9,10 +9,6 @@ A command-line utility written in TypeScript that generates QR codes from text o
 ```bash
 npm install
 ```
-3. Build the project:
-```bash
-npm run build
-```
 
 ## Usage
 
