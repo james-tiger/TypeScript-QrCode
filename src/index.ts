@@ -1,5 +1,5 @@
 import QRCode from 'qrcode';
-import { Command } from 'commander';import { Command } from 'commander';import { Command } from 'commander';import { Command } from 'commander';
+import { Command } from 'commander';
 
 const program = new Command();
 
@@ -24,7 +24,7 @@ program
       const qrOptions: QRCode.QRCodeToStringOptions = {
         type: 'terminal',
         small: true,
-        ...(size > 0 && { width: size, margin: 1 })
+        ...(size > 0 && { version: size, margin: 1 })
       };
 
       const qrString = await QRCode.toString(text, qrOptions);

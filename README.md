@@ -9,22 +9,26 @@ A command-line utility written in TypeScript that generates QR codes from text o
 ```bash
 npm install
 ```
+3. Build the project:
+```bash
+npm run build
+```
 
 ## Usage
 
 Generate a QR code from text or URL:
 ```bash
-npm start -- generate "https://example.com"
+npm start -- generate 'https://example.com'
 ```
 
 Generate a QR code with custom size:
 ```bash
-npm start -- generate "I love TypeScript!" --size 8
+npm start -- generate 'I love TypeScript!' --size 8
 ```
 
 For development (using ts-node):
 ```bash
-npm run dev -- generate "Hello, World!"
+npm run dev -- generate 'Hello, World!'
 ```
 
 ## Features
